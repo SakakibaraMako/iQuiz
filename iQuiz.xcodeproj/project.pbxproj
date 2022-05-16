@@ -18,6 +18,10 @@
 		DB2357022829EA3E00F3A253 /* iQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2357012829EA3E00F3A253 /* iQuizUITestsLaunchTests.swift */; };
 		DB940810282A2E0600C09E7B /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94080F282A2E0600C09E7B /* TopicCell.swift */; };
 		DB940812282A306F00C09E7B /* TableDataAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB940811282A306F00C09E7B /* TableDataAndDelegate.swift */; };
+		DB94081428314C6B00C09E7B /* QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94081328314C6B00C09E7B /* QuizApp.swift */; };
+		DB9408162831BA3700C09E7B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408152831BA3700C09E7B /* QuestionViewController.swift */; };
+		DB9408182831DAAD00C09E7B /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408172831DAAD00C09E7B /* AnswerViewController.swift */; };
+		DB94081A2831E4B100C09E7B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408192831E4B100C09E7B /* FinishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		DB2357012829EA3E00F3A253 /* iQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB94080F282A2E0600C09E7B /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
 		DB940811282A306F00C09E7B /* TableDataAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataAndDelegate.swift; sourceTree = "<group>"; };
+		DB94081328314C6B00C09E7B /* QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizApp.swift; sourceTree = "<group>"; };
+		DB9408152831BA3700C09E7B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		DB9408172831DAAD00C09E7B /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		DB9408192831E4B100C09E7B /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 				DB2356E02829EA3B00F3A253 /* SceneDelegate.swift */,
 				DB2356E22829EA3B00F3A253 /* ViewController.swift */,
 				DB2356E42829EA3B00F3A253 /* Main.storyboard */,
+				DB9408192831E4B100C09E7B /* FinishViewController.swift */,
+				DB9408152831BA3700C09E7B /* QuestionViewController.swift */,
+				DB9408172831DAAD00C09E7B /* AnswerViewController.swift */,
+				DB94081328314C6B00C09E7B /* QuizApp.swift */,
 				DB940811282A306F00C09E7B /* TableDataAndDelegate.swift */,
 				DB94080F282A2E0600C09E7B /* TopicCell.swift */,
 				DB2356E72829EA3E00F3A253 /* Assets.xcassets */,
@@ -266,6 +278,10 @@
 			files = (
 				DB2356E32829EA3B00F3A253 /* ViewController.swift in Sources */,
 				DB940810282A2E0600C09E7B /* TopicCell.swift in Sources */,
+				DB94081A2831E4B100C09E7B /* FinishViewController.swift in Sources */,
+				DB9408162831BA3700C09E7B /* QuestionViewController.swift in Sources */,
+				DB94081428314C6B00C09E7B /* QuizApp.swift in Sources */,
+				DB9408182831DAAD00C09E7B /* AnswerViewController.swift in Sources */,
 				DB2356DF2829EA3B00F3A253 /* AppDelegate.swift in Sources */,
 				DB2356E12829EA3B00F3A253 /* SceneDelegate.swift in Sources */,
 				DB940812282A306F00C09E7B /* TableDataAndDelegate.swift in Sources */,

@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var tableDataAndDelegate = TableDataAndDelegate()
+    private var tableDataAndDelegate = TableDataAndDelegate()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -27,6 +27,18 @@ class ViewController: UIViewController {
             self.dismiss(animated: true)
         }))
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier
+        {
+        case Optional("mainToQuestion"):
+            let questionVC = segue.destination as! QuestionViewController
+            let cell = tableView.cellForRow(at: tableView.indexPathForSelectedRow!) as! TopicCell
+            questionVC.subject = cell.topicLabel.text!
+        default:
+            print("invalid segue")
+        }
     }
 }
 
