@@ -37,6 +37,7 @@ class TableDataAndDelegate: NSObject, UITableViewDataSource, UITableViewDelegate
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ChoiceCell", for: indexPath)
             cell.textLabel!.text = app.getChoices()[app.getIndex()][indexPath.row]
+            cell.textLabel!.numberOfLines = 0
             return cell
         }
     }

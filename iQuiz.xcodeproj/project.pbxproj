@@ -22,6 +22,8 @@
 		DB9408162831BA3700C09E7B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408152831BA3700C09E7B /* QuestionViewController.swift */; };
 		DB9408182831DAAD00C09E7B /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408172831DAAD00C09E7B /* AnswerViewController.swift */; };
 		DB94081A2831E4B100C09E7B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9408192831E4B100C09E7B /* FinishViewController.swift */; };
+		DB94081C2833641F00C09E7B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB94081B2833641F00C09E7B /* Settings.bundle */; };
+		DB94081E283370CB00C09E7B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94081D283370CB00C09E7B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DB9408152831BA3700C09E7B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		DB9408172831DAAD00C09E7B /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		DB9408192831E4B100C09E7B /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		DB94081B2833641F00C09E7B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DB94081D283370CB00C09E7B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				DB2356E02829EA3B00F3A253 /* SceneDelegate.swift */,
 				DB2356E22829EA3B00F3A253 /* ViewController.swift */,
 				DB2356E42829EA3B00F3A253 /* Main.storyboard */,
+				DB94081D283370CB00C09E7B /* SettingsViewController.swift */,
+				DB94081B2833641F00C09E7B /* Settings.bundle */,
 				DB9408192831E4B100C09E7B /* FinishViewController.swift */,
 				DB9408152831BA3700C09E7B /* QuestionViewController.swift */,
 				DB9408172831DAAD00C09E7B /* AnswerViewController.swift */,
@@ -249,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB94081C2833641F00C09E7B /* Settings.bundle in Resources */,
 				DB2356EB2829EA3E00F3A253 /* LaunchScreen.storyboard in Resources */,
 				DB2356E82829EA3E00F3A253 /* Assets.xcassets in Resources */,
 				DB2356E62829EA3B00F3A253 /* Main.storyboard in Resources */,
@@ -279,6 +286,7 @@
 				DB2356E32829EA3B00F3A253 /* ViewController.swift in Sources */,
 				DB940810282A2E0600C09E7B /* TopicCell.swift in Sources */,
 				DB94081A2831E4B100C09E7B /* FinishViewController.swift in Sources */,
+				DB94081E283370CB00C09E7B /* SettingsViewController.swift in Sources */,
 				DB9408162831BA3700C09E7B /* QuestionViewController.swift in Sources */,
 				DB94081428314C6B00C09E7B /* QuizApp.swift in Sources */,
 				DB9408182831DAAD00C09E7B /* AnswerViewController.swift in Sources */,
