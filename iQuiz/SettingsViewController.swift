@@ -23,7 +23,15 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func btnCheckClicked(_ sender: Any) {
-        app.download(URL(string: URLTextField.text!)!, self)
+        let url = URL(string: URLTextField.text ?? "")
+        if url == nil {
+            print("empty URL")
+            let alert = UIAlertController(title: "Error", message: "Invalid URL", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        } else {
+            app.download(url!, self)
+        }
     }
     
     @IBAction func btnOkClicked(_ sender: Any) {
